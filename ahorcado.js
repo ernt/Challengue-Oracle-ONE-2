@@ -175,10 +175,9 @@ const n_palabra=document.getElementById("input-nueva-palabra").value
 localStorage.setItem("palabra",n_palabra);
 document.querySelector('#input-nueva-palabra').value='';
 const n_pal= localStorage.getItem("palabra");
-alert(n_pal)
+
 palabras.push(n_pal);
-alert(palabras)
+
 });
 
 
-alert(palabras)
