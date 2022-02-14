@@ -64,7 +64,7 @@ function check(e) {
     if (tecla == 8) {
         return true;
     }else if (tecla==13) {
-       alert("enter")
+     
     }
 
     // Patron de entrada, en este caso solo acepta  letras mayusculas
