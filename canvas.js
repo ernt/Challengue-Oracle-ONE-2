@@ -1,3 +1,8 @@
+  
+
+
+
+function canvas_init() {
 
 
     let button= document.getElementById('calcular');
@@ -24,20 +29,13 @@
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         button.hidden=true;
       }, false);  
-    
-
-
-
-function canvas_init() {
-
+  
 
 return ctx;
 
 }
 
-function crea_guiones(array) {
-    length(array)
-}
+
 
 
 
@@ -65,6 +63,8 @@ function check(e) {
     //Tecla de retroceso para borrar, siempre la permite
     if (tecla == 8) {
         return true;
+    }else if (tecla==13) {
+       alert("enter")
     }
 
     // Patron de entrada, en este caso solo acepta  letras mayusculas
